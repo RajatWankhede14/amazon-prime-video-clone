@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav {
+  display: flex;
+  background-color: #1b2731;
+  color: white;
+}
+
+.nav__logo {
+  object-fit: contain;
+  height: 100px;
+  padding: 20px 15px;
+  margin-left: 18px;
+  cursor: pointer;
+}
+
+.nav > li {
+  padding: 20px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.nav__avatar {
+  object-fit: contain;
+  height: 90px;
+  margin-top: 5px;
+  margin-left: auto;
+  padding: 25px;
+  cursor: pointer;
+}
+
+.search__bar {
+  background-color: #1b2731;
+  color: aliceblue;
+  margin-left: 51rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 11px 15px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 1rem;
+}
