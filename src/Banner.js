@@ -36,13 +36,12 @@ function Banner() {
                         alt="First slide"
                         />
                         <Carousel.Caption>
-                            <h3>{m?.title}</h3>
+                            <h3>{m?.name || m?.title}</h3>
                             <p>{truncate(`${m?.overview}`, 120)}</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 ))}
-                
-                
+               
             </Carousel> 
         
         </header>
