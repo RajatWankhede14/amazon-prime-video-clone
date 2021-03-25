@@ -1,9 +1,9 @@
 import React from 'react';
 import './HomeScreen.css';
-import Nav from './Nav';
-import Banner from './Banner';
-import Row from './Row';
-import requests from './Requests';
+import Nav from '../Nav';
+import Banner from '../Banner';
+import Row from '../Row';
+import requests from '../Requests';
 
 function HomeScreen() {
     return (
@@ -15,7 +15,7 @@ function HomeScreen() {
             {/* Row */}
             <Row title='Trending Now' fetchUrl={requests.fetchTrending}/>
             <Row title='Action Movies' fetchUrl={requests.fetchActionMovies}/>
-            <Row title='Adventure Movies' fetchUrl={requests.fetchAdventureMovies}/>
+            <Row title='Adventure Movies' fetchUrl={requests.fetchScifiMovies}/>
             <Row title='Sci-fi Movies' fetchUrl={requests.fetchScifiMovies}/>
             <Row title='Kids and Family Movies' fetchUrl={requests.fetchFamilyMovies}/>
             <Row title='Comedy Movies' fetchUrl={requests.fetchComedyMovies}/>

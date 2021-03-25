@@ -1,0 +1,26 @@
+.logNav {
+  display: flex;
+  height: 100px;
+}
+
+.lognav__logo {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.nav__links {
+  position: relative;
+  top: 0;
+  left: 74rem;
+}
+
+.nav__links > li {
+  padding-right: 35px;
+}
+
+li > span {
+  padding-left: 5px;
+}
