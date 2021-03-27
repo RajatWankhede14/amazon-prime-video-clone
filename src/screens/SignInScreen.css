@@ -1,0 +1,83 @@
+.signInScreen {
+  background-color: #fff;
+  color: #000;
+}
+
+.signIn__logo {
+  position: relative;
+  top: 2.5rem;
+  left: 45.5rem;
+}
+
+.signIn__body {
+  border: 1px solid rgb(179, 179, 179);
+  border-radius: 5px;
+  position: relative;
+  top: 4rem;
+  width: 25rem;
+  left: 37.5rem;
+}
+
+.signIn__body > h2 {
+  padding-left: 30px;
+  margin-top: 20px;
+}
+
+.signIn__body > form {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.signIn__body > form > label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.signIn__body > form > span {
+  font-size: 13px;
+  color: blue;
+  margin-left: 8rem;
+}
+
+.signIn__input {
+  width: 21rem;
+}
+
+.signIn__button {
+  border: 0.5px solid grey;
+  margin-top: 15px;
+  padding: 5px;
+  width: 21rem;
+  background-color: rgb(247, 189, 82);
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.signIn__condition {
+  font-size: 13px;
+  padding-top: 20px;
+}
+
+.signIn__condition > span {
+  color: blue;
+  cursor: pointer;
+}
+
+.create {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.signIn__newAcc {
+  color: rgb(92, 90, 90);
+  font-size: 12px;
+  text-align: center;
+}
+
+.signIn__createbtn {
+  border: 1px solid grey;
+  border-radius: 4px;
+  font-size: 15px;
+  width: 21rem;
+  padding: 5px;
+}
