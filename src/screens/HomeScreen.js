@@ -13,16 +13,13 @@ function HomeScreen() {
             {/* Banner */}
             <Banner />
             {/* Row */}
-            <Row title='Trending Now' fetchUrl={requests.fetchTrending}/>
-            <Row title='Action Movies' fetchUrl={requests.fetchActionMovies}/>
-            <Row title='Adventure Movies' fetchUrl={requests.fetchScifiMovies}/>
-            <Row title='Sci-fi Movies' fetchUrl={requests.fetchScifiMovies}/>
-            <Row title='Kids and Family Movies' fetchUrl={requests.fetchFamilyMovies}/>
-            <Row title='Comedy Movies' fetchUrl={requests.fetchComedyMovies}/>
-            <Row title='Fantasy Movies' fetchUrl={requests.fetchFantasyMovies}/>
-            <Row title='Horror Movies' fetchUrl={requests.fetchHorrorMovies}/>
-            <Row title='Crime Movies' fetchUrl={requests.fetchCrimeMovies}/>
-            <Row title='War Movies' fetchUrl={requests.fetchWarMovies}/>
+            <Row title='Trending Now' fetchUrl={requests.fetchTrending} />
+            <Row title="Top Rated" fetchUrl={requests.fetchTopRated} />
+            <Row title="Action Movies" fetchUrl={requests.fetchActionMovies} />
+            <Row title="Comedy Movies" fetchUrl={requests.fetchComedyMovies} />
+            <Row title="Horror Movies" fetchUrl={requests.fetchHorrorMovies} />
+            <Row title="Romance Movies" fetchUrl={requests.fetchRomanceMovies} />
+            <Row title="Documentaries" fetchUrl={requests.fetchDocumentaries} />
             
         </div>
     )

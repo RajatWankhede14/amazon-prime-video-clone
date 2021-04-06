@@ -40,7 +40,9 @@
 }
 
 .signIn__input {
-  width: 21rem;
+  width: 20.5rem;
+  font-size: 13px;
+  padding: 4px 6px;
 }
 
 .signIn__button {

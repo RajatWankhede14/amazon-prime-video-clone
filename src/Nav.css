@@ -26,16 +26,14 @@
   left: 0;
 }
 
-.nav__links {
+.nav__link {
   display: flex;
   position: relative;
-  top: 0;
-  margin-left: 2rem;
-  margin-top: 31px;
+  top: 29px;
 }
 
-.nav__links > li {
-  padding-right: 30px;
+.nav__link > li {
+  padding-right: 35px;
   cursor: pointer;
 }
 
@@ -45,14 +43,14 @@
   padding: 20px;
   cursor: pointer;
   position: relative;
-  top: 5px;
-  left: 48rem;
+  top: 8px;
+  left: 35rem;
 }
 
 .search__bar {
   position: relative;
   top: 0;
-  left: 45rem;
+  left: 34rem;
   padding: 10px 15px;
   background-color: #1b2731;
   border-radius: 0.4rem;

@@ -1,4 +1,5 @@
 /* LogNavbar */
+
 .logNav {
   display: flex;
   height: 6.5rem;
@@ -14,7 +15,14 @@
 
 .nav__links {
   position: relative;
-  left: 71rem;
+  display: flex;
+  top: 30px;
+  left: 70rem;
+}
+
+.nav__links > li {
+  padding-right: 20px;
+  cursor: pointer;
 }
 
 /* MainPage */

@@ -1,0 +1,11 @@
+.profileScreen {
+  height: 100vh;
+}
+
+.profile__add {
+  text-align: center;
+  width: 10rem;
+  font-size: 4rem;
+  padding: 25px;
+  border: 2px solid grey;
+}

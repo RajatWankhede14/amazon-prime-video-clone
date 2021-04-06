@@ -20,10 +20,10 @@ function Nav() {
     return (
         <div className={`nav ${trans === true && "nav__color" }`}>
             <img className="nav__logo" src="https://www.jamesdodkins.com/uploads/6/4/7/0/6470224/published/prime-video_1.png?1552987507" alt="amazon-logo"/>
-            <ul className="nav__links">
+            <ul className="nav__link">
                 <li>Home</li>
-                <li>TV</li>
                 <li>Movies</li>
+                <li>TV</li>
                 <li>Kids</li>
             </ul>
             <input className="search__bar" type="text" placeholder="Search" />
